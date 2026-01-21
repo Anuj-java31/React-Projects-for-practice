@@ -7,7 +7,7 @@ function App() {
     if (counter > 20) {
       counter = 0;
     }
-    setCounter(counter)
+    setCounter(counter+1)
   }
   const removeValue = () => {
     counter = counter - 1;
